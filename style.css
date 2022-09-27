@@ -57,9 +57,13 @@ body {
   .header-title {
     font-size: 48px;
     font-weight: extra-bold;
-    color: #1F2937;
+    color: #;
     padding: 5px;
-  } 
+   
+    width: 50%;
+    font-weight: 900;
+    
+  }
   .image-one {
     width: 400px;
     display: flex;
@@ -74,5 +78,51 @@ body {
     align-items: flex-start;
   }
   .header {
+    flex-direction: column;
+    background-color: #1F2937;
+    color: #e5e7eb;
+    align-items: center;
+    padding: 100px;
+    
+    
+  }
+  button {
+    background-color: #3882f6;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border-radius: 6px;
+    text-decoration: none;
+    border: none;
+    font-weight: bold;
+    font-size: 15px;
+    
+    
+    
+  }
+  .first-text {
+    display: flex;
+    flex-direction: column;
+  }
+  .image-one {
+    height: 200px;
+    padding-left: 40px;
+    display: flex;
+    margin-top: -100px;
+    padding-bottom: 120px;
+    ;
+    
+  }
+  
+  .header-text {
+    width: 50%;
+    
+  }
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    margin-top: -140px;
+    padding-bottom: 30px;
+    
     
   }
