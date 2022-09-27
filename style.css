@@ -61,7 +61,7 @@ body {
   .header-title {
     font-size: 48px;
     font-weight: extra-bold;
-    color: #;
+    color:#E5E7EB;
     padding: 5px;
    
     width: 50%;
@@ -176,8 +176,7 @@ body {
     padding-top: 60px;
   }
   
-  .grumpy-cat-class {
-  }
+  
   .sections {
     display: flex;
     flex-direction: column;
